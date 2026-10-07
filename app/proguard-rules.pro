@@ -1,0 +1,4 @@
+-keep class com.microsoft.cognitiveservices.speech.** { *; }
+-keep class com.google.mlkit.** { *; }
+-dontwarn okhttp3.**
+-dontwarn okio.**
